@@ -1,0 +1,685 @@
+Group	Measurement	Parameter	Unit	Value
+Auto-created group	1	HIT (O&P)	GPa	6.328
+Auto-created group	1	HVIT (O&P)	Vickers	586.013
+Auto-created group	1	EIT (O&P)	GPa	130.613
+Auto-created group	1	E* (O&P)	GPa	143.530
+Auto-created group	1	Er (O&P)	GPa	127.562
+Auto-created group	1	hm (O&P)	nm	886.370
+Auto-created group	1	Fm (O&P)	mN	80.019
+Auto-created group	1	S (O&P)	mN/nm	0.529
+Auto-created group	1	Poisson's ratio		0.300
+Auto-created group	1	hc (O&P)	nm	771.651
+Auto-created group	1	hr (O&P)	nm	735.181
+Auto-created group	1	hp (O&P)	nm	674.329
+Auto-created group	1	Epsilon (O&P)		0.759
+Auto-created group	1	Ap (O&P)	nm²	12645817.000
+Auto-created group	1	m (O&P)		1.402
+Auto-created group	1	CIT	%	2.023
+Auto-created group	1	RIT	%	-1.123
+Auto-created group	1	Welast	pJ	7262.482
+Auto-created group	1	Wplast	pJ	18363.855
+Auto-created group	1	Wtotal	pJ	25626.336
+Auto-created group	1	nit	%	28.340
+Auto-created group	1	X	µm	11356.266
+Auto-created group	1	Y	µm	37611.199
+Auto-created group	1	F/S²(O&P)	nm²/mN	285.660
+Auto-created group	2	HIT (O&P)	GPa	4.351
+Auto-created group	2	HVIT (O&P)	Vickers	443.575
+Auto-created group	2	EIT (O&P)	GPa	111.641
+Auto-created group	2	E* (O&P)	GPa	122.682
+Auto-created group	2	Er (O&P)	GPa	110.824
+Auto-created group	2	hm (O&P)	nm	411.996
+Auto-created group	2	Fm (O&P)	mN	79.998
+Auto-created group	2	S (O&P)	mN/nm	0.536
+Auto-created group	2	Poisson's ratio		0.300
+Auto-created group	2	hc (O&P)	nm	297.003
+Auto-created group	2	hr (O&P)	nm	262.796
+Auto-created group	2	hp (O&P)	nm	216.578
+Auto-created group	2	Epsilon (O&P)		0.771
+Auto-created group	2	Ap (O&P)	nm²	18384134.000
+Auto-created group	2	m (O&P)		1.310
+Auto-created group	2	CIT	%	3.967
+Auto-created group	2	RIT	%	-1.286
+Auto-created group	2	Welast	pJ	6804.683
+Auto-created group	2	Wplast	pJ	10048.989
+Auto-created group	2	Wtotal	pJ	16853.672
+Auto-created group	2	nit	%	40.375
+Auto-created group	2	X	µm	11356.432
+Auto-created group	2	Y	µm	37657.266
+Auto-created group	2	F/S²(O&P)	nm²/mN	278.263
+Y_HT_300mN	1	HIT (O&P)	GPa	3.684
+Y_HT_300mN	1	HVIT (O&P)	Vickers	375.531
+Y_HT_300mN	1	EIT (O&P)	GPa	88.131
+Y_HT_300mN	1	E* (O&P)	GPa	96.847
+Y_HT_300mN	1	Er (O&P)	GPa	89.304
+Y_HT_300mN	1	hm (O&P)	nm	1654.506
+Y_HT_300mN	1	Fm (O&P)	mN	299.830
+Y_HT_300mN	1	S (O&P)	mN/nm	0.909
+Y_HT_300mN	1	Poisson's ratio		0.300
+Y_HT_300mN	1	hc (O&P)	nm	1392.247
+Y_HT_300mN	1	hr (O&P)	nm	1324.693
+Y_HT_300mN	1	hp (O&P)	nm	1260.721
+Y_HT_300mN	1	Epsilon (O&P)		0.795
+Y_HT_300mN	1	Ap (O&P)	nm²	81387960.000
+Y_HT_300mN	1	m (O&P)		1.194
+Y_HT_300mN	1	CIT	%	15.200
+Y_HT_300mN	1	RIT	%	-0.099
+Y_HT_300mN	1	Welast	pJ	59904.785
+Y_HT_300mN	1	Wplast	pJ	226138.953
+Y_HT_300mN	1	Wtotal	pJ	286043.750
+Y_HT_300mN	1	nit	%	20.943
+Y_HT_300mN	1	X	µm	11589.299
+Y_HT_300mN	1	Y	µm	37890.598
+Y_HT_300mN	1	G (Creep)	GPa	10.449
+Y_HT_300mN	1	E (Creep)	GPa	27.168
+Y_HT_300mN	1	K (Creep)	GPa	22.640
+Y_HT_300mN	1	F/S²(O&P)	nm²/mN	362.795
+Y_HT_300mN	2	HIT (O&P)	GPa	3.615
+Y_HT_300mN	2	HVIT (O&P)	Vickers	368.504
+Y_HT_300mN	2	EIT (O&P)	GPa	86.405
+Y_HT_300mN	2	E* (O&P)	GPa	94.951
+Y_HT_300mN	2	Er (O&P)	GPa	87.689
+Y_HT_300mN	2	hm (O&P)	nm	1687.268
+Y_HT_300mN	2	Fm (O&P)	mN	299.981
+Y_HT_300mN	2	S (O&P)	mN/nm	0.901
+Y_HT_300mN	2	Poisson's ratio		0.300
+Y_HT_300mN	2	hc (O&P)	nm	1421.763
+Y_HT_300mN	2	hr (O&P)	nm	1354.454
+Y_HT_300mN	2	hp (O&P)	nm	1292.290
+Y_HT_300mN	2	Epsilon (O&P)		0.798
+Y_HT_300mN	2	Ap (O&P)	nm²	82981560.000
+Y_HT_300mN	2	m (O&P)		1.187
+Y_HT_300mN	2	CIT	%	11.495
+Y_HT_300mN	2	RIT	%	-0.107
+Y_HT_300mN	2	Welast	pJ	58068.730
+Y_HT_300mN	2	Wplast	pJ	227077.672
+Y_HT_300mN	2	Wtotal	pJ	285146.406
+Y_HT_300mN	2	nit	%	20.365
+Y_HT_300mN	2	X	µm	11789.299
+Y_HT_300mN	2	Y	µm	37890.598
+Y_HT_300mN	2	G (Creep)	GPa	11.183
+Y_HT_300mN	2	E (Creep)	GPa	29.076
+Y_HT_300mN	2	K (Creep)	GPa	24.230
+Y_HT_300mN	2	F/S²(O&P)	nm²/mN	369.242
+Y_HT_300mN	3	HIT (O&P)	GPa	3.832
+Y_HT_300mN	3	HVIT (O&P)	Vickers	390.646
+Y_HT_300mN	3	EIT (O&P)	GPa	88.379
+Y_HT_300mN	3	E* (O&P)	GPa	97.120
+Y_HT_300mN	3	Er (O&P)	GPa	89.536
+Y_HT_300mN	3	hm (O&P)	nm	1599.926
+Y_HT_300mN	3	Fm (O&P)	mN	300.061
+Y_HT_300mN	3	S (O&P)	mN/nm	0.894
+Y_HT_300mN	3	Poisson's ratio		0.300
+Y_HT_300mN	3	hc (O&P)	nm	1335.328
+Y_HT_300mN	3	hr (O&P)	nm	1264.284
+Y_HT_300mN	3	hp (O&P)	nm	1189.698
+Y_HT_300mN	3	Epsilon (O&P)		0.788
+Y_HT_300mN	3	Ap (O&P)	nm²	78299360.000
+Y_HT_300mN	3	m (O&P)		1.222
+Y_HT_300mN	3	CIT	%	11.419
+Y_HT_300mN	3	RIT	%	-0.130
+Y_HT_300mN	3	Welast	pJ	58725.863
+Y_HT_300mN	3	Wplast	pJ	208999.797
+Y_HT_300mN	3	Wtotal	pJ	267725.656
+Y_HT_300mN	3	nit	%	21.935
+Y_HT_300mN	3	X	µm	11589.299
+Y_HT_300mN	3	Y	µm	38090.598
+Y_HT_300mN	3	G (Creep)	GPa	12.130
+Y_HT_300mN	3	E (Creep)	GPa	31.539
+Y_HT_300mN	3	K (Creep)	GPa	26.283
+Y_HT_300mN	3	F/S²(O&P)	nm²/mN	375.442
+Y_HT_300mN	4	HIT (O&P)	GPa	3.575
+Y_HT_300mN	4	HVIT (O&P)	Vickers	364.408
+Y_HT_300mN	4	EIT (O&P)	GPa	88.858
+Y_HT_300mN	4	E* (O&P)	GPa	97.646
+Y_HT_300mN	4	Er (O&P)	GPa	89.983
+Y_HT_300mN	4	hm (O&P)	nm	1692.651
+Y_HT_300mN	4	Fm (O&P)	mN	299.997
+Y_HT_300mN	4	S (O&P)	mN/nm	0.930
+Y_HT_300mN	4	Poisson's ratio		0.300
+Y_HT_300mN	4	hc (O&P)	nm	1439.171
+Y_HT_300mN	4	hr (O&P)	nm	1370.120
+Y_HT_300mN	4	hp (O&P)	nm	1294.725
+Y_HT_300mN	4	Epsilon (O&P)		0.786
+Y_HT_300mN	4	Ap (O&P)	nm²	83918864.000
+Y_HT_300mN	4	m (O&P)		1.234
+Y_HT_300mN	4	CIT	%	11.542
+Y_HT_300mN	4	RIT	%	-0.107
+Y_HT_300mN	4	Welast	pJ	57077.797
+Y_HT_300mN	4	Wplast	pJ	227684.375
+Y_HT_300mN	4	Wtotal	pJ	284762.156
+Y_HT_300mN	4	nit	%	20.044
+Y_HT_300mN	4	X	µm	11789.299
+Y_HT_300mN	4	Y	µm	38090.598
+Y_HT_300mN	4	G (Creep)	GPa	11.093
+Y_HT_300mN	4	E (Creep)	GPa	28.842
+Y_HT_300mN	4	K (Creep)	GPa	24.035
+Y_HT_300mN	4	F/S²(O&P)	nm²/mN	346.757
+Y_HT_300mN	5	HIT (O&P)	GPa	3.484
+Y_HT_300mN	5	HVIT (O&P)	Vickers	355.193
+Y_HT_300mN	5	EIT (O&P)	GPa	87.208
+Y_HT_300mN	5	E* (O&P)	GPa	95.833
+Y_HT_300mN	5	Er (O&P)	GPa	88.441
+Y_HT_300mN	5	hm (O&P)	nm	1751.561
+Y_HT_300mN	5	Fm (O&P)	mN	300.026
+Y_HT_300mN	5	S (O&P)	mN/nm	0.926
+Y_HT_300mN	5	Poisson's ratio		0.300
+Y_HT_300mN	5	hc (O&P)	nm	1479.899
+Y_HT_300mN	5	hr (O&P)	nm	1427.568
+Y_HT_300mN	5	hp (O&P)	nm	1396.964
+Y_HT_300mN	5	Epsilon (O&P)		0.838
+Y_HT_300mN	5	Ap (O&P)	nm²	86104416.000
+Y_HT_300mN	5	m (O&P)		1.094
+Y_HT_300mN	5	CIT	%	13.858
+Y_HT_300mN	5	RIT	%	-0.127
+Y_HT_300mN	5	Welast	pJ	54638.195
+Y_HT_300mN	5	Wplast	pJ	242805.469
+Y_HT_300mN	5	Wtotal	pJ	297443.656
+Y_HT_300mN	5	nit	%	18.369
+Y_HT_300mN	5	X	µm	10863.532
+Y_HT_300mN	5	Y	µm	37422.164
+Y_HT_300mN	5	G (Creep)	GPa	10.395
+Y_HT_300mN	5	E (Creep)	GPa	27.026
+Y_HT_300mN	5	K (Creep)	GPa	22.522
+Y_HT_300mN	5	F/S²(O&P)	nm²/mN	349.875
+Y_HT_300mN	6	hm (O&P)	nm	1919.645
+Y_HT_300mN	6	Fm (O&P)	mN	-153.969
+Y_HT_300mN	6	Poisson's ratio		0.300
+Y_HT_300mN	6	hr (O&P)	nm	0.000
+Y_HT_300mN	6	hp (O&P)	nm	0.000
+Y_HT_300mN	6	CIT	%	20.945
+Y_HT_300mN	6	RIT	%	-94.329
+Y_HT_300mN	6	Welast	pJ	0.000
+Y_HT_300mN	6	Wplast	pJ	0.000
+Y_HT_300mN	6	Wtotal	pJ	0.000
+Y_HT_300mN	6	X	µm	11063.532
+Y_HT_300mN	6	Y	µm	37422.164
+Y_HT_300mN	6	G (Creep)	GPa	-1.115
+Y_HT_300mN	6	E (Creep)	GPa	-2.898
+Y_HT_300mN	6	K (Creep)	GPa	-2.415
+Y_HT_300mN	7	HIT (O&P)	GPa	3.635
+Y_HT_300mN	7	HVIT (O&P)	Vickers	370.540
+Y_HT_300mN	7	EIT (O&P)	GPa	93.473
+Y_HT_300mN	7	E* (O&P)	GPa	102.718
+Y_HT_300mN	7	Er (O&P)	GPa	94.273
+Y_HT_300mN	7	hm (O&P)	nm	1646.398
+Y_HT_300mN	7	Fm (O&P)	mN	299.743
+Y_HT_300mN	7	S (O&P)	mN/nm	0.966
+Y_HT_300mN	7	Poisson's ratio		0.300
+Y_HT_300mN	7	hc (O&P)	nm	1412.097
+Y_HT_300mN	7	hr (O&P)	nm	1336.096
+Y_HT_300mN	7	hp (O&P)	nm	1198.440
+Y_HT_300mN	7	Epsilon (O&P)		0.755
+Y_HT_300mN	7	Ap (O&P)	nm²	82460280.000
+Y_HT_300mN	7	m (O&P)		1.444
+Y_HT_300mN	7	CIT	%	15.008
+Y_HT_300mN	7	RIT	%	-0.100
+Y_HT_300mN	7	Welast	pJ	61791.523
+Y_HT_300mN	7	Wplast	pJ	219207.469
+Y_HT_300mN	7	Wtotal	pJ	280999.000
+Y_HT_300mN	7	nit	%	21.990
+Y_HT_300mN	7	X	µm	10863.532
+Y_HT_300mN	7	Y	µm	37622.164
+Y_HT_300mN	7	G (Creep)	GPa	9.248
+Y_HT_300mN	7	E (Creep)	GPa	24.046
+Y_HT_300mN	7	K (Creep)	GPa	20.038
+Y_HT_300mN	7	F/S²(O&P)	nm²/mN	321.233
+Y_HT_300mN	8	HIT (O&P)	GPa	3.678
+Y_HT_300mN	8	HVIT (O&P)	Vickers	374.879
+Y_HT_300mN	8	EIT (O&P)	GPa	91.675
+Y_HT_300mN	8	E* (O&P)	GPa	100.742
+Y_HT_300mN	8	Er (O&P)	GPa	92.606
+Y_HT_300mN	8	hm (O&P)	nm	1649.861
+Y_HT_300mN	8	Fm (O&P)	mN	300.018
+Y_HT_300mN	8	S (O&P)	mN/nm	0.944
+Y_HT_300mN	8	Poisson's ratio		0.300
+Y_HT_300mN	8	hc (O&P)	nm	1395.813
+Y_HT_300mN	8	hr (O&P)	nm	1331.983
+Y_HT_300mN	8	hp (O&P)	nm	1273.883
+Y_HT_300mN	8	Epsilon (O&P)		0.799
+Y_HT_300mN	8	Ap (O&P)	nm²	81580736.000
+Y_HT_300mN	8	m (O&P)		1.183
+Y_HT_300mN	8	CIT	%	11.093
+Y_HT_300mN	8	RIT	%	-0.107
+Y_HT_300mN	8	Welast	pJ	56089.879
+Y_HT_300mN	8	Wplast	pJ	220139.016
+Y_HT_300mN	8	Wtotal	pJ	276228.906
+Y_HT_300mN	8	nit	%	20.306
+Y_HT_300mN	8	X	µm	11063.532
+Y_HT_300mN	8	Y	µm	37622.164
+Y_HT_300mN	8	G (Creep)	GPa	11.521
+Y_HT_300mN	8	E (Creep)	GPa	29.955
+Y_HT_300mN	8	K (Creep)	GPa	24.962
+Y_HT_300mN	8	F/S²(O&P)	nm²/mN	336.802
+Y_HT_200mN	1	HIT (O&P)	GPa	3.779
+Y_HT_200mN	1	HVIT (O&P)	Vickers	385.203
+Y_HT_200mN	1	EIT (O&P)	GPa	90.723
+Y_HT_200mN	1	E* (O&P)	GPa	99.696
+Y_HT_200mN	1	Er (O&P)	GPa	91.721
+Y_HT_200mN	1	hm (O&P)	nm	1111.279
+Y_HT_200mN	1	Fm (O&P)	mN	199.983
+Y_HT_200mN	1	S (O&P)	mN/nm	0.753
+Y_HT_200mN	1	Poisson's ratio		0.300
+Y_HT_200mN	1	hc (O&P)	nm	881.091
+Y_HT_200mN	1	hr (O&P)	nm	845.663
+Y_HT_200mN	1	hp (O&P)	nm	824.945
+Y_HT_200mN	1	Epsilon (O&P)		0.867
+Y_HT_200mN	1	Ap (O&P)	nm²	52921700.000
+Y_HT_200mN	1	m (O&P)		1.078
+Y_HT_200mN	1	CIT	%	10.631
+Y_HT_200mN	1	RIT	%	-0.198
+Y_HT_200mN	1	Welast	pJ	28957.350
+Y_HT_200mN	1	Wplast	pJ	92539.141
+Y_HT_200mN	1	Wtotal	pJ	121496.484
+Y_HT_200mN	1	nit	%	23.834
+Y_HT_200mN	1	X	µm	12401.433
+Y_HT_200mN	1	Y	µm	37100.934
+Y_HT_200mN	1	G (Creep)	GPa	13.832
+Y_HT_200mN	1	E (Creep)	GPa	35.964
+Y_HT_200mN	1	K (Creep)	GPa	29.970
+Y_HT_200mN	1	F/S²(O&P)	nm²/mN	352.788
+Y_HT_200mN	2	HIT (O&P)	GPa	3.785
+Y_HT_200mN	2	HVIT (O&P)	Vickers	385.831
+Y_HT_200mN	2	EIT (O&P)	GPa	89.714
+Y_HT_200mN	2	E* (O&P)	GPa	98.586
+Y_HT_200mN	2	Er (O&P)	GPa	90.781
+Y_HT_200mN	2	hm (O&P)	nm	1099.315
+Y_HT_200mN	2	Fm (O&P)	mN	199.952
+Y_HT_200mN	2	S (O&P)	mN/nm	0.745
+Y_HT_200mN	2	Poisson's ratio		0.300
+Y_HT_200mN	2	hc (O&P)	nm	879.448
+Y_HT_200mN	2	hr (O&P)	nm	830.752
+Y_HT_200mN	2	hp (O&P)	nm	796.198
+Y_HT_200mN	2	Epsilon (O&P)		0.819
+Y_HT_200mN	2	Ap (O&P)	nm²	52827544.000
+Y_HT_200mN	2	m (O&P)		1.129
+Y_HT_200mN	2	CIT	%	9.518
+Y_HT_200mN	2	RIT	%	-0.188
+Y_HT_200mN	2	Welast	pJ	29861.982
+Y_HT_200mN	2	Wplast	pJ	88597.414
+Y_HT_200mN	2	Wtotal	pJ	118459.398
+Y_HT_200mN	2	nit	%	25.209
+Y_HT_200mN	2	X	µm	12601.433
+Y_HT_200mN	2	Y	µm	37100.934
+Y_HT_200mN	2	G (Creep)	GPa	14.109
+Y_HT_200mN	2	E (Creep)	GPa	36.684
+Y_HT_200mN	2	K (Creep)	GPa	30.570
+Y_HT_200mN	2	F/S²(O&P)	nm²/mN	360.716
+Y_HT_200mN	3	HIT (O&P)	GPa	3.923
+Y_HT_200mN	3	HVIT (O&P)	Vickers	399.868
+Y_HT_200mN	3	EIT (O&P)	GPa	93.834
+Y_HT_200mN	3	E* (O&P)	GPa	103.114
+Y_HT_200mN	3	Er (O&P)	GPa	94.606
+Y_HT_200mN	3	hm (O&P)	nm	1084.363
+Y_HT_200mN	3	Fm (O&P)	mN	200.006
+Y_HT_200mN	3	S (O&P)	mN/nm	0.762
+Y_HT_200mN	3	Poisson's ratio		0.300
+Y_HT_200mN	3	hc (O&P)	nm	847.383
+Y_HT_200mN	3	hr (O&P)	nm	821.978
+Y_HT_200mN	3	hp (O&P)	nm	807.121
+Y_HT_200mN	3	Epsilon (O&P)		0.903
+Y_HT_200mN	3	Ap (O&P)	nm²	50986796.000
+Y_HT_200mN	3	m (O&P)		1.057
+Y_HT_200mN	3	CIT	%	9.952
+Y_HT_200mN	3	RIT	%	-0.186
+Y_HT_200mN	3	Welast	pJ	28099.207
+Y_HT_200mN	3	Wplast	pJ	89972.727
+Y_HT_200mN	3	Wtotal	pJ	118071.938
+Y_HT_200mN	3	nit	%	23.798
+Y_HT_200mN	3	X	µm	12401.433
+Y_HT_200mN	3	Y	µm	37300.934
+Y_HT_200mN	3	G (Creep)	GPa	14.330
+Y_HT_200mN	3	E (Creep)	GPa	37.258
+Y_HT_200mN	3	K (Creep)	GPa	31.048
+Y_HT_200mN	3	F/S²(O&P)	nm²/mN	344.220
+Y_HT_200mN	4	HIT (O&P)	GPa	3.966
+Y_HT_200mN	4	HVIT (O&P)	Vickers	404.297
+Y_HT_200mN	4	EIT (O&P)	GPa	93.536
+Y_HT_200mN	4	E* (O&P)	GPa	102.787
+Y_HT_200mN	4	Er (O&P)	GPa	94.331
+Y_HT_200mN	4	hm (O&P)	nm	1067.461
+Y_HT_200mN	4	Fm (O&P)	mN	200.018
+Y_HT_200mN	4	S (O&P)	mN/nm	0.756
+Y_HT_200mN	4	Poisson's ratio		0.300
+Y_HT_200mN	4	hc (O&P)	nm	837.728
+Y_HT_200mN	4	hr (O&P)	nm	802.849
+Y_HT_200mN	4	hp (O&P)	nm	782.453
+Y_HT_200mN	4	Epsilon (O&P)		0.868
+Y_HT_200mN	4	Ap (O&P)	nm²	50431260.000
+Y_HT_200mN	4	m (O&P)		1.077
+Y_HT_200mN	4	CIT	%	9.165
+Y_HT_200mN	4	RIT	%	-0.167
+Y_HT_200mN	4	Welast	pJ	28490.637
+Y_HT_200mN	4	Wplast	pJ	86912.508
+Y_HT_200mN	4	Wtotal	pJ	115403.148
+Y_HT_200mN	4	nit	%	24.688
+Y_HT_200mN	4	X	µm	12601.433
+Y_HT_200mN	4	Y	µm	37300.934
+Y_HT_200mN	4	G (Creep)	GPa	14.662
+Y_HT_200mN	4	E (Creep)	GPa	38.122
+Y_HT_200mN	4	K (Creep)	GPa	31.768
+Y_HT_200mN	4	F/S²(O&P)	nm²/mN	350.066
+Y_HT_100mN	1	HIT (O&P)	GPa	3.829
+Y_HT_100mN	1	HVIT (O&P)	Vickers	390.365
+Y_HT_100mN	1	EIT (O&P)	GPa	105.008
+Y_HT_100mN	1	E* (O&P)	GPa	115.394
+Y_HT_100mN	1	Er (O&P)	GPa	104.843
+Y_HT_100mN	1	hm (O&P)	nm	554.155
+Y_HT_100mN	1	Fm (O&P)	mN	99.997
+Y_HT_100mN	1	S (O&P)	mN/nm	0.605
+Y_HT_100mN	1	Poisson's ratio		0.300
+Y_HT_100mN	1	hc (O&P)	nm	424.609
+Y_HT_100mN	1	hr (O&P)	nm	388.742
+Y_HT_100mN	1	hp (O&P)	nm	347.912
+Y_HT_100mN	1	Epsilon (O&P)		0.783
+Y_HT_100mN	1	Ap (O&P)	nm²	26112564.000
+Y_HT_100mN	1	m (O&P)		1.247
+Y_HT_100mN	1	CIT	%	9.307
+Y_HT_100mN	1	RIT	%	-0.406
+Y_HT_100mN	1	Welast	pJ	9318.371
+Y_HT_100mN	1	Wplast	pJ	20470.584
+Y_HT_100mN	1	Wtotal	pJ	29788.955
+Y_HT_100mN	1	nit	%	31.281
+Y_HT_100mN	1	X	µm	11453.232
+Y_HT_100mN	1	Y	µm	36347.699
+Y_HT_100mN	1	G (Creep)	GPa	3.037
+Y_HT_100mN	1	E (Creep)	GPa	7.896
+Y_HT_100mN	1	K (Creep)	GPa	6.580
+Y_HT_100mN	1	F/S²(O&P)	nm²/mN	273.624
+Y_HT_100mN	2	HIT (O&P)	GPa	3.709
+Y_HT_100mN	2	HVIT (O&P)	Vickers	378.133
+Y_HT_100mN	2	EIT (O&P)	GPa	103.387
+Y_HT_100mN	2	E* (O&P)	GPa	113.612
+Y_HT_100mN	2	Er (O&P)	GPa	103.370
+Y_HT_100mN	2	hm (O&P)	nm	568.967
+Y_HT_100mN	2	Fm (O&P)	mN	99.986
+Y_HT_100mN	2	S (O&P)	mN/nm	0.606
+Y_HT_100mN	2	Poisson's ratio		0.300
+Y_HT_100mN	2	hc (O&P)	nm	438.606
+Y_HT_100mN	2	hr (O&P)	nm	403.856
+Y_HT_100mN	2	hp (O&P)	nm	368.109
+Y_HT_100mN	2	Epsilon (O&P)		0.790
+Y_HT_100mN	2	Ap (O&P)	nm²	26954062.000
+Y_HT_100mN	2	m (O&P)		1.217
+Y_HT_100mN	2	CIT	%	10.877
+Y_HT_100mN	2	RIT	%	-0.363
+Y_HT_100mN	2	Welast	pJ	9248.757
+Y_HT_100mN	2	Wplast	pJ	21060.484
+Y_HT_100mN	2	Wtotal	pJ	30309.242
+Y_HT_100mN	2	nit	%	30.515
+Y_HT_100mN	2	X	µm	11653.232
+Y_HT_100mN	2	Y	µm	36347.699
+Y_HT_100mN	2	G (Creep)	GPa	18.601
+Y_HT_100mN	2	E (Creep)	GPa	48.363
+Y_HT_100mN	2	K (Creep)	GPa	40.302
+Y_HT_100mN	2	F/S²(O&P)	nm²/mN	272.656
+Y_HT_100mN	3	HIT (O&P)	GPa	3.762
+Y_HT_100mN	3	HVIT (O&P)	Vickers	383.519
+Y_HT_100mN	3	EIT (O&P)	GPa	102.081
+Y_HT_100mN	3	E* (O&P)	GPa	112.177
+Y_HT_100mN	3	Er (O&P)	GPa	102.180
+Y_HT_100mN	3	hm (O&P)	nm	565.250
+Y_HT_100mN	3	Fm (O&P)	mN	100.017
+Y_HT_100mN	3	S (O&P)	mN/nm	0.594
+Y_HT_100mN	3	Poisson's ratio		0.300
+Y_HT_100mN	3	hc (O&P)	nm	432.445
+Y_HT_100mN	3	hr (O&P)	nm	397.005
+Y_HT_100mN	3	hp (O&P)	nm	360.435
+Y_HT_100mN	3	Epsilon (O&P)		0.789
+Y_HT_100mN	3	Ap (O&P)	nm²	26583812.000
+Y_HT_100mN	3	m (O&P)		1.217
+Y_HT_100mN	3	CIT	%	9.696
+Y_HT_100mN	3	RIT	%	-0.389
+Y_HT_100mN	3	Welast	pJ	9231.227
+Y_HT_100mN	3	Wplast	pJ	19589.336
+Y_HT_100mN	3	Wtotal	pJ	28820.563
+Y_HT_100mN	3	nit	%	32.030
+Y_HT_100mN	3	X	µm	11453.232
+Y_HT_100mN	3	Y	µm	36547.699
+Y_HT_100mN	3	G (Creep)	GPa	19.113
+Y_HT_100mN	3	E (Creep)	GPa	49.694
+Y_HT_100mN	3	K (Creep)	GPa	41.411
+Y_HT_100mN	3	F/S²(O&P)	nm²/mN	283.016
+Y_HT_100mN	4	HIT (O&P)	GPa	3.782
+Y_HT_100mN	4	HVIT (O&P)	Vickers	385.525
+Y_HT_100mN	4	EIT (O&P)	GPa	102.478
+Y_HT_100mN	4	E* (O&P)	GPa	112.614
+Y_HT_100mN	4	Er (O&P)	GPa	102.543
+Y_HT_100mN	4	hm (O&P)	nm	561.628
+Y_HT_100mN	4	Fm (O&P)	mN	99.998
+Y_HT_100mN	4	S (O&P)	mN/nm	0.595
+Y_HT_100mN	4	Poisson's ratio		0.300
+Y_HT_100mN	4	hc (O&P)	nm	430.062
+Y_HT_100mN	4	hr (O&P)	nm	393.556
+Y_HT_100mN	4	hp (O&P)	nm	351.772
+Y_HT_100mN	4	Epsilon (O&P)		0.783
+Y_HT_100mN	4	Ap (O&P)	nm²	26440562.000
+Y_HT_100mN	4	m (O&P)		1.249
+Y_HT_100mN	4	CIT	%	10.323
+Y_HT_100mN	4	RIT	%	-0.404
+Y_HT_100mN	4	Welast	pJ	9504.108
+Y_HT_100mN	4	Wplast	pJ	21574.064
+Y_HT_100mN	4	Wtotal	pJ	31078.172
+Y_HT_100mN	4	nit	%	30.581
+Y_HT_100mN	4	X	µm	11653.232
+Y_HT_100mN	4	Y	µm	36547.699
+Y_HT_100mN	4	G (Creep)	GPa	18.752
+Y_HT_100mN	4	E (Creep)	GPa	48.756
+Y_HT_100mN	4	K (Creep)	GPa	40.630
+Y_HT_100mN	4	F/S²(O&P)	nm²/mN	282.490
+HT_V_300mN	1	HIT (O&P)	GPa	3.499
+HT_V_300mN	1	HVIT (O&P)	Vickers	356.716
+HT_V_300mN	1	EIT (O&P)	GPa	87.211
+HT_V_300mN	1	E* (O&P)	GPa	95.836
+HT_V_300mN	1	Er (O&P)	GPa	88.444
+HT_V_300mN	1	hm (O&P)	nm	1728.638
+HT_V_300mN	1	Fm (O&P)	mN	300.012
+HT_V_300mN	1	S (O&P)	mN/nm	0.924
+HT_V_300mN	1	Poisson's ratio		0.300
+HT_V_300mN	1	hc (O&P)	nm	1472.962
+HT_V_300mN	1	hr (O&P)	nm	1403.969
+HT_V_300mN	1	hp (O&P)	nm	1330.530
+HT_V_300mN	1	Epsilon (O&P)		0.787
+HT_V_300mN	1	Ap (O&P)	nm²	85732856.000
+HT_V_300mN	1	m (O&P)		1.226
+HT_V_300mN	1	CIT	%	16.637
+HT_V_300mN	1	RIT	%	-0.109
+HT_V_300mN	1	Welast	pJ	60399.352
+HT_V_300mN	1	Wplast	pJ	241509.703
+HT_V_300mN	1	Wtotal	pJ	301909.063
+HT_V_300mN	1	nit	%	20.006
+HT_V_300mN	1	X	µm	12955.433
+HT_V_300mN	1	Y	µm	36869.965
+HT_V_300mN	1	G (Creep)	GPa	9.144
+HT_V_300mN	1	E (Creep)	GPa	23.773
+HT_V_300mN	1	K (Creep)	GPa	19.811
+HT_V_300mN	1	F/S²(O&P)	nm²/mN	351.353
+HT_V_300mN	2	HIT (O&P)	GPa	3.377
+HT_V_300mN	2	HVIT (O&P)	Vickers	344.283
+HT_V_300mN	2	EIT (O&P)	GPa	86.487
+HT_V_300mN	2	E* (O&P)	GPa	95.041
+HT_V_300mN	2	Er (O&P)	GPa	87.766
+HT_V_300mN	2	hm (O&P)	nm	1771.097
+HT_V_300mN	2	Fm (O&P)	mN	299.917
+HT_V_300mN	2	S (O&P)	mN/nm	0.933
+HT_V_300mN	2	Poisson's ratio		0.300
+HT_V_300mN	2	hc (O&P)	nm	1530.415
+HT_V_300mN	2	hr (O&P)	nm	1449.722
+HT_V_300mN	2	hp (O&P)	nm	1284.040
+HT_V_300mN	2	Epsilon (O&P)		0.749
+HT_V_300mN	2	Ap (O&P)	nm²	88800688.000
+HT_V_300mN	2	m (O&P)		1.516
+HT_V_300mN	2	CIT	%	17.075
+HT_V_300mN	2	RIT	%	-0.121
+HT_V_300mN	2	Welast	pJ	65501.902
+HT_V_300mN	2	Wplast	pJ	245117.578
+HT_V_300mN	2	Wtotal	pJ	310619.469
+HT_V_300mN	2	nit	%	21.088
+HT_V_300mN	2	X	µm	13155.433
+HT_V_300mN	2	Y	µm	36869.965
+HT_V_300mN	2	G (Creep)	GPa	8.398
+HT_V_300mN	2	E (Creep)	GPa	21.835
+HT_V_300mN	2	K (Creep)	GPa	18.196
+HT_V_300mN	2	F/S²(O&P)	nm²/mN	344.369
+HT_V_300mN	3	HIT (O&P)	GPa	3.357
+HT_V_300mN	3	HVIT (O&P)	Vickers	342.248
+HT_V_300mN	3	EIT (O&P)	GPa	88.776
+HT_V_300mN	3	E* (O&P)	GPa	97.556
+HT_V_300mN	3	Er (O&P)	GPa	89.907
+HT_V_300mN	3	hm (O&P)	nm	1776.789
+HT_V_300mN	3	Fm (O&P)	mN	299.992
+HT_V_300mN	3	S (O&P)	mN/nm	0.959
+HT_V_300mN	3	Poisson's ratio		0.300
+HT_V_300mN	3	hc (O&P)	nm	1540.763
+HT_V_300mN	3	hr (O&P)	nm	1463.956
+HT_V_300mN	3	hp (O&P)	nm	1323.116
+HT_V_300mN	3	Epsilon (O&P)		0.754
+HT_V_300mN	3	Ap (O&P)	nm²	89350992.000
+HT_V_300mN	3	m (O&P)		1.450
+HT_V_300mN	3	CIT	%	16.785
+HT_V_300mN	3	RIT	%	-0.111
+HT_V_300mN	3	Welast	pJ	62308.707
+HT_V_300mN	3	Wplast	pJ	246310.922
+HT_V_300mN	3	Wtotal	pJ	308619.625
+HT_V_300mN	3	nit	%	20.189
+HT_V_300mN	3	X	µm	12955.433
+HT_V_300mN	3	Y	µm	37069.965
+HT_V_300mN	3	G (Creep)	GPa	6.628
+HT_V_300mN	3	E (Creep)	GPa	17.233
+HT_V_300mN	3	K (Creep)	GPa	14.361
+HT_V_300mN	3	F/S²(O&P)	nm²/mN	326.223
+HT_V_300mN	4	HIT (O&P)	GPa	3.562
+HT_V_300mN	4	HVIT (O&P)	Vickers	363.114
+HT_V_300mN	4	EIT (O&P)	GPa	89.133
+HT_V_300mN	4	E* (O&P)	GPa	97.948
+HT_V_300mN	4	Er (O&P)	GPa	90.240
+HT_V_300mN	4	hm (O&P)	nm	1690.380
+HT_V_300mN	4	Fm (O&P)	mN	300.055
+HT_V_300mN	4	S (O&P)	mN/nm	0.935
+HT_V_300mN	4	Poisson's ratio		0.300
+HT_V_300mN	4	hc (O&P)	nm	1445.038
+HT_V_300mN	4	hr (O&P)	nm	1369.306
+HT_V_300mN	4	hp (O&P)	nm	1253.546
+HT_V_300mN	4	Epsilon (O&P)		0.764
+HT_V_300mN	4	Ap (O&P)	nm²	84234336.000
+HT_V_300mN	4	m (O&P)		1.361
+HT_V_300mN	4	CIT	%	13.774
+HT_V_300mN	4	RIT	%	-0.109
+HT_V_300mN	4	Welast	pJ	61194.492
+HT_V_300mN	4	Wplast	pJ	225147.688
+HT_V_300mN	4	Wtotal	pJ	286342.188
+HT_V_300mN	4	nit	%	21.371
+HT_V_300mN	4	X	µm	13155.433
+HT_V_300mN	4	Y	µm	37069.965
+HT_V_300mN	4	G (Creep)	GPa	10.456
+HT_V_300mN	4	E (Creep)	GPa	27.185
+HT_V_300mN	4	K (Creep)	GPa	22.654
+HT_V_300mN	4	F/S²(O&P)	nm²/mN	343.565
+HT_V_200mN	1	HIT (O&P)	GPa	3.535
+HT_V_200mN	1	HVIT (O&P)	Vickers	360.387
+HT_V_200mN	1	EIT (O&P)	GPa	90.458
+HT_V_200mN	1	E* (O&P)	GPa	99.404
+HT_V_200mN	1	Er (O&P)	GPa	91.474
+HT_V_200mN	1	hm (O&P)	nm	1159.222
+HT_V_200mN	1	Fm (O&P)	mN	200.028
+HT_V_200mN	1	S (O&P)	mN/nm	0.776
+HT_V_200mN	1	Poisson's ratio		0.300
+HT_V_200mN	1	hc (O&P)	nm	945.139
+HT_V_200mN	1	hr (O&P)	nm	901.583
+HT_V_200mN	1	hp (O&P)	nm	876.112
+HT_V_200mN	1	Epsilon (O&P)		0.831
+HT_V_200mN	1	Ap (O&P)	nm²	56578484.000
+HT_V_200mN	1	m (O&P)		1.099
+HT_V_200mN	1	CIT	%	8.024
+HT_V_200mN	1	RIT	%	-0.169
+HT_V_200mN	1	Welast	pJ	27920.729
+HT_V_200mN	1	Wplast	pJ	88088.336
+HT_V_200mN	1	Wtotal	pJ	116009.063
+HT_V_200mN	1	nit	%	24.068
+HT_V_200mN	1	X	µm	11851.832
+HT_V_200mN	1	Y	µm	37371.465
+HT_V_200mN	1	G (Creep)	GPa	12.915
+HT_V_200mN	1	E (Creep)	GPa	33.578
+HT_V_200mN	1	K (Creep)	GPa	27.982
+HT_V_200mN	1	F/S²(O&P)	nm²/mN	331.843
+HT_V_200mN	2	HIT (O&P)	GPa	3.824
+HT_V_200mN	2	HVIT (O&P)	Vickers	389.855
+HT_V_200mN	2	EIT (O&P)	GPa	94.113
+HT_V_200mN	2	E* (O&P)	GPa	103.421
+HT_V_200mN	2	Er (O&P)	GPa	94.864
+HT_V_200mN	2	hm (O&P)	nm	1076.396
+HT_V_200mN	2	Fm (O&P)	mN	199.895
+HT_V_200mN	2	S (O&P)	mN/nm	0.774
+HT_V_200mN	2	Poisson's ratio		0.300
+HT_V_200mN	2	hc (O&P)	nm	869.675
+HT_V_200mN	2	hr (O&P)	nm	818.093
+HT_V_200mN	2	hp (O&P)	nm	771.673
+HT_V_200mN	2	Epsilon (O&P)		0.800
+HT_V_200mN	2	Ap (O&P)	nm²	52267220.000
+HT_V_200mN	2	m (O&P)		1.180
+HT_V_200mN	2	CIT	%	8.751
+HT_V_200mN	2	RIT	%	-0.164
+HT_V_200mN	2	Welast	pJ	29536.553
+HT_V_200mN	2	Wplast	pJ	86014.758
+HT_V_200mN	2	Wtotal	pJ	115551.313
+HT_V_200mN	2	nit	%	25.561
+HT_V_200mN	2	X	µm	12051.833
+HT_V_200mN	2	Y	µm	37371.465
+HT_V_200mN	2	G (Creep)	GPa	12.267
+HT_V_200mN	2	E (Creep)	GPa	31.894
+HT_V_200mN	2	K (Creep)	GPa	26.578
+HT_V_200mN	2	F/S²(O&P)	nm²/mN	333.776
+HT_V_200mN	3	HIT (O&P)	GPa	3.872
+HT_V_200mN	3	HVIT (O&P)	Vickers	394.698
+HT_V_200mN	3	EIT (O&P)	GPa	96.569
+HT_V_200mN	3	E* (O&P)	GPa	106.120
+HT_V_200mN	3	Er (O&P)	GPa	97.131
+HT_V_200mN	3	hm (O&P)	nm	1057.922
+HT_V_200mN	3	Fm (O&P)	mN	200.029
+HT_V_200mN	3	S (O&P)	mN/nm	0.788
+HT_V_200mN	3	Poisson's ratio		0.300
+HT_V_200mN	3	hc (O&P)	nm	859.107
+HT_V_200mN	3	hr (O&P)	nm	803.999
+HT_V_200mN	3	hp (O&P)	nm	741.089
+HT_V_200mN	3	Epsilon (O&P)		0.783
+HT_V_200mN	3	Ap (O&P)	nm²	51660600.000
+HT_V_200mN	3	m (O&P)		1.248
+HT_V_200mN	3	CIT	%	9.457
+HT_V_200mN	3	RIT	%	-0.190
+HT_V_200mN	3	Welast	pJ	29510.109
+HT_V_200mN	3	Wplast	pJ	84152.047
+HT_V_200mN	3	Wtotal	pJ	113662.156
+HT_V_200mN	3	nit	%	25.963
+HT_V_200mN	3	X	µm	11851.832
+HT_V_200mN	3	Y	µm	37571.465
+HT_V_200mN	3	G (Creep)	GPa	4.109
+HT_V_200mN	3	E (Creep)	GPa	10.683
+HT_V_200mN	3	K (Creep)	GPa	8.902
+HT_V_200mN	3	F/S²(O&P)	nm²/mN	322.339
+HT_V_200mN	4	HIT (O&P)	GPa	3.892
+HT_V_200mN	4	HVIT (O&P)	Vickers	396.771
+HT_V_200mN	4	EIT (O&P)	GPa	96.997
+HT_V_200mN	4	E* (O&P)	GPa	106.590
+HT_V_200mN	4	Er (O&P)	GPa	97.524
+HT_V_200mN	4	hm (O&P)	nm	1063.108
+HT_V_200mN	4	Fm (O&P)	mN	199.999
+HT_V_200mN	4	S (O&P)	mN/nm	0.789
+HT_V_200mN	4	Poisson's ratio		0.300
+HT_V_200mN	4	hc (O&P)	nm	854.273
+HT_V_200mN	4	hr (O&P)	nm	809.566
+HT_V_200mN	4	hp (O&P)	nm	780.457
+HT_V_200mN	4	Epsilon (O&P)		0.824
+HT_V_200mN	4	Ap (O&P)	nm²	51382900.000
+HT_V_200mN	4	m (O&P)		1.115
+HT_V_200mN	4	CIT	%	7.790
+HT_V_200mN	4	RIT	%	-0.201
+HT_V_200mN	4	Welast	pJ	27593.426
+HT_V_200mN	4	Wplast	pJ	84798.758
+HT_V_200mN	4	Wtotal	pJ	112392.180
+HT_V_200mN	4	nit	%	24.551
+HT_V_200mN	4	X	µm	12051.833
+HT_V_200mN	4	Y	µm	37571.465
+HT_V_200mN	4	G (Creep)	GPa	14.650
+HT_V_200mN	4	E (Creep)	GPa	38.089
+HT_V_200mN	4	K (Creep)	GPa	31.741
+HT_V_200mN	4	F/S²(O&P)	nm²/mN	321.419

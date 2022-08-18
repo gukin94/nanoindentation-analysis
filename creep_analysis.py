@@ -5,8 +5,8 @@ import numpy as np
 from scipy.optimize import curve_fit
 
 
-HARDNESS_TIME_FILE_PATH = "./example_file/HT_V_300mN.TXT"
-STIFFNESS_FILE_PATH = './example_file/HT_V_300mN_data.TXT'
+HARDNESS_TIME_FILE_PATH = "./example_file/As-built sample curve.TXT"
+STIFFNESS_FILE_PATH = './example_file/As-built sample data.TXT'
 
 START_STEP_SIZE = 100
 LIMIT_STEP_SIZE = 1000
@@ -38,6 +38,10 @@ def create_data_manager():
     strain_rate_insert(data_manager, case_names)
     compute_log(data_manager, case_names)
 
+    # for key in data_manager.copy().keys():
+    #     if key not in case_names:
+    #         del data_manager[key]
+
     return data_manager
 
 
@@ -50,32 +54,42 @@ def compute_creep_fitting(data_manager, case_names):
     for case in case_names:
         x = data_manager[case]['creep_data']['creep_time']
         yn = data_manager[case]['creep_data']['creep_displacement']
-        popt, pcov = curve_fit(creep_curve_function, x, yn)
+        try:
+            popt, pcov = curve_fit(creep_curve_function, x, yn)
 
-        a = popt[0]
-        b = popt[1]
-        k = popt[2]
+        except RuntimeError:
+            case_names.remove(case)
 
-        fitted_h = [creep_curve_function(t, a, b, k) for t in x]
-        data_manager[case]['creep_data']['fitted_creep_displacement'] = fitted_h
+        else:
+            a = popt[0]
+            b = popt[1]
+            k = popt[2]
+
+            fitted_h = [creep_curve_function(t, a, b, k) for t in x]
+            data_manager[case]['creep_data']['fitted_creep_displacement'] = fitted_h
 
 
 def compute_log(data_manager, case_names):
     for case in case_names:
         strain_rate_array = data_manager[case]['creep_data']['strain_rate']
-        hardness_array = data_manager[case]['creep_data']['hardness']
+        try:
+            hardness_array = data_manager[case]['creep_data']['hardness']
 
-        log_strain_rate_array = []
-        log_hardness_array = []
-        for i in range(len(strain_rate_array)):
-            log_strain_rate = math.log(strain_rate_array[i])
-            log_hardness = math.log(hardness_array[i])
+        except KeyError:
+            case_names.remove(case)
 
-            log_strain_rate_array.append(log_strain_rate)
-            log_hardness_array.append(log_hardness)
+        else:
+            log_strain_rate_array = []
+            log_hardness_array = []
+            for i in range(len(strain_rate_array)):
+                log_strain_rate = math.log(strain_rate_array[i])
+                log_hardness = math.log(hardness_array[i])
 
-        data_manager[case]['creep_data']['log_strain_rate'] = log_strain_rate_array
-        data_manager[case]['creep_data']['log_hardness'] = log_hardness_array
+                log_strain_rate_array.append(log_strain_rate)
+                log_hardness_array.append(log_hardness)
+
+            data_manager[case]['creep_data']['log_strain_rate'] = log_strain_rate_array
+            data_manager[case]['creep_data']['log_hardness'] = log_hardness_array
 
 
 def creep_data_insert(data_manager, case_names):
@@ -112,27 +126,25 @@ def creep_data_insert(data_manager, case_names):
 
 def strain_rate_insert(data_manager, case_names):
     for case in case_names:
-        # case_df = data_manager[case]['raw_data']
-        case_sqrt_area = data_manager[case]['creep_data']['sqrt_area_[m]']  # get list
-        case_hardness = data_manager[case]['creep_data']['hardness']
+        try:
+            case_sqrt_area = data_manager[case]['creep_data']['sqrt_area_[m]']  # get list
 
-        # creep_idx = find_creep_start_end_idx(case_df)
-        # creep_start_idx = creep_idx[0]
-        # creep_end_idx = creep_idx[1]
+        except KeyError:
+            case_names.remove(case)
 
-        # time_array = case_df['Time']
-        time_array = data_manager[case]['creep_data']['creep_time']
-        length_df = len(time_array)
-        strain_rate_array = []
+        else:
+            time_array = data_manager[case]['creep_data']['creep_time']
+            length_df = len(time_array)
+            strain_rate_array = []
 
-        step_size = START_STEP_SIZE
+            step_size = START_STEP_SIZE
 
-        for i in range(length_df - step_size):  # creep_end_idx-1 b.c. need to calc gradient.
-            strain_rate = strain_rate_calc(case_sqrt_area[i], case_sqrt_area[i + step_size]
-                                           , time_array[i], time_array[i + step_size])
-            strain_rate_array.append(strain_rate)
+            for i in range(length_df - step_size):  # creep_end_idx-1 b.c. need to calc gradient.
+                strain_rate = strain_rate_calc(case_sqrt_area[i], case_sqrt_area[i + step_size]
+                                               , time_array[i], time_array[i + step_size])
+                strain_rate_array.append(strain_rate)
 
-        data_manager[case]['creep_data']['strain_rate'] = strain_rate_array
+            data_manager[case]['creep_data']['strain_rate'] = strain_rate_array
 
 
 def strain_rate_calc(sqrt_area_1, sqrt_area_2, time_1, time_2):
@@ -145,45 +157,56 @@ def strain_rate_calc(sqrt_area_1, sqrt_area_2, time_1, time_2):
 
 def hardness_insert(data_manager, case_names):
     for case in case_names:
-        case_area = data_manager[case]['creep_data']['area_[mm^2]']  # get list
-        fn_array = data_manager[case]['creep_data']['creep_load']
-        length_df = len(fn_array)
-        hardness_array = []
-        j = 0
-        for i in range(length_df):
-            hardness = hardness_calc(fn_array[i], case_area[i])
-            hardness_array.append(hardness)
+        try:
+            case_area = data_manager[case]['creep_data']['area_[mm^2]']
 
-        data_manager[case]['creep_data']['hardness'] = hardness_array
+        except KeyError:
+            case_names.remove(case)
+
+        else:
+            fn_array = data_manager[case]['creep_data']['creep_load']
+            length_df = len(fn_array)
+            hardness_array = []
+            j = 0
+            for i in range(length_df):
+                hardness = hardness_calc(fn_array[i], case_area[i])
+                hardness_array.append(hardness)
+
+            data_manager[case]['creep_data']['hardness'] = hardness_array
 
 
 def area_insert(data_manager, case_names):
     for case in case_names:
+        try:
+            pd_series = data_manager[case]['creep_data']['fitted_creep_displacement']
 
-        pd_series = data_manager[case]['creep_data']['fitted_creep_displacement']
-        fn_series = data_manager[case]['creep_data']['creep_load']
-        time_series = data_manager[case]['creep_data']['creep_time']
-        case_stiffness = data_manager[case]['s_value']
+        except KeyError:
+            case_names.remove(case)
 
-        pd_0 = data_manager[case]['creep_data']['creep_displacement_start']
+        else:
+            fn_series = data_manager[case]['creep_data']['creep_load']
+            time_series = data_manager[case]['creep_data']['creep_time']
+            case_stiffness = data_manager[case]['s_value']
 
-        length_df = len(pd_series)
+            pd_0 = data_manager[case]['creep_data']['creep_displacement_start']
 
-        area_array = []
-        sqrt_area_array = []
-        time_array = []
-        for i in range(length_df):
-            area = area_calc(pd_series[i] + pd_0, fn_series[i], case_stiffness)
-            time = time_series[i]
-            sqrt_area = sqrt_area_calc(area)
+            length_df = len(pd_series)
 
-            time_array.append(time)
-            area_array.append(area)
-            sqrt_area_array.append(sqrt_area)
+            area_array = []
+            sqrt_area_array = []
+            time_array = []
+            for i in range(length_df):
+                area = area_calc(pd_series[i] + pd_0, fn_series[i], case_stiffness)
+                time = time_series[i]
+                sqrt_area = sqrt_area_calc(area)
 
-        data_manager[case]['creep_data']['area_[mm^2]'] = area_array
-        data_manager[case]['creep_data']['sqrt_area_[m]'] = sqrt_area_array
-        data_manager[case]['creep_data']['time'] = time_array
+                time_array.append(time)
+                area_array.append(area)
+                sqrt_area_array.append(sqrt_area)
+
+            data_manager[case]['creep_data']['area_[mm^2]'] = area_array
+            data_manager[case]['creep_data']['sqrt_area_[m]'] = sqrt_area_array
+            data_manager[case]['creep_data']['time'] = time_array
 
 
 def area_calc(pd, fn, stiffness):
@@ -319,33 +342,45 @@ def main():
     for key, value in data_manager.items():
         x = data_manager[key]['creep_data']['creep_time']
         y = data_manager[key]['creep_data']['creep_displacement']
-        fitted_y = data_manager[key]['creep_data']['fitted_creep_displacement']
-        plt.plot(x, y, '.')
-        plt.plot(x, fitted_y, 'k')
+        try:
+            fitted_y = data_manager[key]['creep_data']['fitted_creep_displacement']
+
+        except KeyError:
+            pass
+
+        else:
+            plt.plot(x, y, '.')
+            plt.plot(x, fitted_y, 'k')
     plt.xlabel('creep_time (s)')
     plt.ylabel('creep_displacement (nm)')
 
-    plt.figure(3)
+    fig = plt.figure(3)
     for key, value in data_manager.items():
-        yield_point = data_manager[key]['yield_point']
-        x = data_manager[key]['creep_data']['log_strain_rate']
-        y = data_manager[key]['creep_data']['log_hardness']
+        try:
+            x = data_manager[key]['creep_data']['log_strain_rate']
+            y = data_manager[key]['creep_data']['log_hardness']
 
-        x_stable = x[-3000: -1]
-        y_stable = y[-3000: -1]
+        except KeyError:
+            pass
 
-        m, b = np.polyfit(x_stable, y_stable, 1)
-        n = 1/m
-        y2 = np.multiply(m, x_stable) + b
-        print(f'SRS, m for {key}: {round(m,3)}')
-        print(f'n for {key}: {round(n,3)}\n')
+        else:
+            x_stable = x[-3000: -1]
+            y_stable = y[-3000: -1]
 
-        plt.plot(x, y, 'o', label = f'{key} m: {round(m,3)}, n :{round(n,3)}')
-        plt.plot(x_stable, y2, 'k')
+            m, b = np.polyfit(x_stable, y_stable, 1)
+            n = 1/m
+            y2 = np.multiply(m, x_stable) + b
+            print(f'SRS, m for {key}: {round(m,3)}')
+            print(f'n for {key}: {round(n,3)}\n')
+
+            plt.plot(x, y, 'o', label = f'{key} m: {round(m,3)}, n :{round(n,3)}')
+            plt.plot(x_stable, y2, 'k')
 
     plt.legend()
     plt.xlabel('ln(Strain rate) (s^-1)')
     plt.ylabel('ln(Hardness) (GPa)')
+    plt.legend(loc='center left', bbox_to_anchor=(1, 0))
+    fig.savefig('samplefigure', bbox_inches='tight')
 
     plt.show()
 
